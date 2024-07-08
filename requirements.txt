@@ -1,5 +1,6 @@
 streamlit
 openai==0.28
-decouple
+python-dotenv
+python-decouple
 transformers==4.42.3
 tf-keras
