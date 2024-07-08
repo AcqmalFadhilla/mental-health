@@ -2,5 +2,7 @@ streamlit
 openai==0.28
 python-dotenv
 python-decouple
+torch 
+torchvision
 transformers==4.42.3
 tf-keras
