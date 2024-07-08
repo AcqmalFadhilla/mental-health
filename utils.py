@@ -1,7 +1,7 @@
 from transformers import pipeline
 import streamlit as st
 
-pipe_summarazation = pipeline("summarization", model="facebook/bart-large-xsum")
+pipe_summarazation = pipeline("summarization", model="Falconsai/text_summarization")
 pipe_analys = pipeline("text-classification", model="rabiaqayyum/autotrain-mental-health-analysis-752423172")
 
 def check_len(text):
