@@ -1,8 +1,8 @@
 from transformers import pipeline
 import streamlit as st
 
-pipe_summarazation = pipeline("summarization", model="Falconsai/text_summarization", from_pt=True)
-pipe_analys = pipeline("text-classification", model="rabiaqayyum/autotrain-mental-health-analysis-752423172", from_pt=True)
+pipe_summarazation = pipeline("summarization", model="Falconsai/text_summarization")
+pipe_analys = pipeline("text-classification", model="rabiaqayyum/autotrain-mental-health-analysis-752423172")
 
 def check_len(text):
   if len(text) > 1024:
